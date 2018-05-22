@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00235d"
+    tools:context="com.example.myfirstapp.MathMessageActivity">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startHaas"
+        android:text="Haas"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startMulgrave"
+        android:text="Mulgrave"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startPlugues"
+        android:text="Plugues"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startDeyo"
+        android:text="Deyo"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startZafonte"
+        android:text="Zafonte"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#bcb371"
+        android:onClick="startSchwimmer"
+        android:text="Schwimmer"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

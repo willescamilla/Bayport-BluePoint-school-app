@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "672639879546",
+    "firebase_url": "https://bayport-blue-point-hs-app.firebaseio.com",
+    "project_id": "bayport-blue-point-hs-app",
+    "storage_bucket": "bayport-blue-point-hs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672639879546:android:f363407d1d70e5c1",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672639879546-nm9ft0rqlpj91o7kpqctb01i2dlhfgoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myfirstapp",
+            "certificate_hash": "d0153cdb751358c96aa4452c003e5c8cc38304e1"
+          }
+        },
+        {
+          "client_id": "672639879546-290u3lrf7veqgfil899fobj563nvmoi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDva5X66zGb-HYGZK6OYjCc9r0aDPGMJys"
+        },
+        {
+          "current_key": "AIzaSyBSL3_tvcV0eU3Pi0yh9C7ZQJIs2ivCgvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672639879546-290u3lrf7veqgfil899fobj563nvmoi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
